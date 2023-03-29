@@ -41,7 +41,7 @@ Gdy program zostanie uruchomiony pierwszy raz można używać następujących op
 ```
 $ ./PrzetwObraz -i src_images/kubus.ppm -d
 ```
-![Program przykład dzialania](./images/kubus.ppm)
+![Program przykład dzialania](./images/oryginalny_kubus.png)
 
 ### Wykonywanie operacji na obrazie i zapis pracy
 ```
@@ -51,6 +51,6 @@ $ ./PrzetwObraz -i src_images/kubus.ppm -p 0.5 -k -o zapis
 ```
 $ ./PrzetwObraz -i zapis -d
 ```
-![Program przykład wyswietlania](./images/zapis.ppm)
+![Program przykład wyswietlania](./images/Zmieniony_kubus.png)
 ## Źródła
 Projekt powstał na potrzeby zajęć u Dr. inż. Roberta Muszyńskiego przy pomocy części kodu udostępnionego dla studentów (plik  ../src/opcje.c).
