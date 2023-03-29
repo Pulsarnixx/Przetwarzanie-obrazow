@@ -1,4 +1,4 @@
-# Przetwarzanie obrazów Lazik PPM i PGM
+# Przetwarzanie obrazów PPM i PGM
 Prosta aplikacja stworzona w C i GraphicsMagick.
 
 ## Spis treści
