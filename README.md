@@ -1,7 +1,7 @@
 # Przetwarzanie obrazów Lazik PPM i PGM
 Prosta aplikacja stworzona w C i GraphicsMagick.
 
-![Program przykład działania](./images/kubus.ppm)(./images/zapis.ppm)
+!(./images/zapis.ppm)
 
 ## Spis treści
 * [Ogólne informacje](#ogólne-informacje)
@@ -41,13 +41,16 @@ Gdy program zostanie uruchomiony pierwszy raz można używać następujących op
 ```
 $ ./PrzetwObraz -i src_images/kubus.ppm -d
 ```
+![Program przykład dzialania](./images/kubus.ppm)
+
 ### Wykonywanie operacji na obrazie i zapis pracy
 ```
-$ ./PrzetwObraz -i src_images/kubus.ppm -p 0.7 -n -o zapis
+$ ./PrzetwObraz -i src_images/kubus.ppm -p 0.5 -k -o zapis
 ```
 ### Wyświetlanie wyniku
 ```
 $ ./PrzetwObraz -i zapis -d
 ```
-## Źródla
+![Program przykład wyswietlania](./images/zapis.ppm)
+## Źródła
 Projekt powstał na potrzeby zajęć u Dr. inż. Roberta Muszyńskiego przy pomocy części kodu udostępnionego dla studentów (plik  ../src/opcje.c).
